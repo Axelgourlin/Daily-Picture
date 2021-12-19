@@ -1,5 +1,15 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>About Page of Daily Picture</h1>
+
+    <p>Here you can see a daily image from NASA's API.</p>
   </div>
 </template>
+
+<script>
+export default {
+  mounted() {
+    document.title = "About Page Daily Picture";
+  },
+};
+</script>
